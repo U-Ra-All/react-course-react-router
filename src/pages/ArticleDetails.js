@@ -1,7 +1,11 @@
+import { useParams } from 'react-router-dom';
+
 const ArticleDetails = () => {
+  const params = useParams();
   return (
     <section>
       <h1>Article Details</h1>
+      <p>{params.articleId}</p>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
         id! Odit maiores laudantium fugiat possimus perferendis minus autem

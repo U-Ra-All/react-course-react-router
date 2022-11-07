@@ -33,4 +33,4 @@ function App() {
 
 export default App;
 
-// main-domain.com/article-details/
+// main-domain.com/article-details/<любое значение>
